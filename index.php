@@ -8,7 +8,9 @@
         <title></title>
     </head>
     <body>
+        
         <div><?php if(isset($_SESSION['USR'])){ ?>
+            <a href="Prueba.php">Pruebas</a>
             <a href="controladores/CerrarSesion.php">Cerrar Sesión</a>
             <?php } ?>
         </div>       
